@@ -1,0 +1,97 @@
+body {
+	background-image: url("ROOM.png");
+}
+
+
+.OMORI {
+	height: 200px;
+	width: auto;
+	animation-name: OMORImove;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes OMORImove {
+	from {transform : translateX(-10em);}
+	to {transform : translateX(52em);}
+}
+
+.AUBREY {
+	height: 200px;
+	width: auto;
+	animation-name: AUBREYmove;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes AUBREYmove {
+	from {transform: translateX(-30em);}
+	to {transform: translateX(32em);}
+}
+
+.KEL {
+	height: 200px;
+	width: auto;	
+	animation-name: KELmove;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes KELmove {
+	from {transform: translateX(-50em);}
+	to {transform: translateX(12em);}
+}
+
+.HERO {
+	height: 200px;
+	width: auto;
+	animation-name: HEROmove;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes HEROmove {
+	from {transform: translateX(-70em);}
+	to {transform: translateX(-8em);}
+}
+
+.ROOMtext {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	Height: 320px;
+	width: auto;
+	animation-name: Textfade;
+	animation-duration: 7s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes Textfade {
+	from { opacity: 0; }
+	5% { opacity: .05; }
+	10% { opacity: .1; }
+	15% { opacity: .15; }
+	20% { opacity: .2; }
+	25% { opacity: .25; }
+	30% { opacity: .3; }
+	35% { opacity: .35; }
+	40% { opacity: .4; }
+	45% { opacity: .45; }
+	50% { opacity: .5; }
+	55% { opacity: .55; }
+	60% { opacity: .6; }
+	65% { opacity: .65; }
+	70% { opacity: .7; }
+	75% { opacity: .75; }
+	80% { opacity: .8; }
+	85% { opacity: .85; }
+	90% { opacity: .9; }
+	95% { opacity: .95; }
+	to { opacity: 1; }
+}

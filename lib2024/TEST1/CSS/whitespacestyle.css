@@ -1,0 +1,58 @@
+body {
+	background-image: url("Whitespace Images/White Space.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@font-face {
+	font-family: Normal;
+	src: url("Fonts/OMORI_GAME2.ttf");
+}
+
+.audio {
+	position: fixed;
+	margin-top: 675px;
+}
+
+.container {
+	display: flex;
+	justify-content: right;
+}
+
+.ESC {
+	height: 75px;
+	width: auto;
+	top: 0;
+	right: 0;
+}
+
+.OMORI {
+	height: 15em;
+	margin-top: 25em;
+	animation-name: OMORImove;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.container2 {
+	display: flex;
+	margin-top: 5em;
+	margin-left: 42em;
+}
+
+.subcontainer2 {
+	font-family: Normal;
+	font-size: 2em;
+	border: solid;
+	border-color: black;
+	padding: 0px 10px 0px 10px;
+}
+
+@keyframes OMORImove {
+	from {transform : translateX(-30em);}
+	to {transform : translateX(45em);}
+}
+

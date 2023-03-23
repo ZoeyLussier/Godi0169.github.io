@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+}
+
+@font-face {
+	font-family: Normal;
+	src: url("Fonts/OMORI_GAME2.ttf");
+}
+
+.audio {
+	position: fixed;
+	margin-top: 675px;
+	z-index: 2;
+}
+
+.container {
+	display: flex;
+	justify-content: right;
+}
+
+.ESC {
+	height: 75px;
+	width: auto;
+	top: 0;
+	right: 0;
+}
+
+.blackspace {
+	position: absolute;
+	padding-left: 75px;
+	padding-bottom: 100px;
+	height: 750px;
+	width: auto;
+	justify-content: center;
+	z-index: 1;
+}
+
+.door{
+	position:absolute;
+	z-index: 2;
+	height: 431px;
+	width: auto;
+	padding-left: 297px;
+	padding-top: 105px;
+	animation: Fadedoor 10s 12s forwards;
+}
+
+@keyframes Fadedoor {
+	from {opacity: 1}
+	35% {opacity: 1}
+	to {opacity: 0}
+}
+
+.welcome {
+	position: absolute;
+	z-index: 3;
+	padding-left: 400px;
+	margin-top: -100px;
+	animation: Fadekey 20s 0s forwards;
+}
+
+@keyframes Fadekey {
+	from {opacity: 0}
+	50% {opacity: 1}
+	75% {opacity: 1}
+	to {opacity: 0}
+}

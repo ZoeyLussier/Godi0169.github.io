@@ -1,0 +1,147 @@
+body {
+	background-color: white;
+}
+
+@font-face {
+	font-family: Scary;
+	src: url("Fonts/OMORI_GAME.ttf");
+}
+
+@font-face {
+	font-family: Normal;
+	src: url("Fonts/OMORI_GAME2.ttf");
+}
+
+.audio {
+	position: fixed;
+	margin-top: 50px;
+	z-index: 2;
+}
+
+.Background {
+	position: absolute;
+	padding-left: 50px;
+	height: 750px;
+	width: auto;
+	justify-content: center;
+	z-index: 1;
+}
+
+.Links {
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 100vh;
+}
+
+.box {
+	position: sticky;
+	z-index: 4;
+	margin-top: auto;
+	border: solid;
+	border-color: white;
+	background-color: black;
+	padding: 20px;
+	font-size: 50px;
+	font-family: Scary;
+}
+
+.box1 {
+	position: sticky;
+	z-index: 4;
+	margin-top: auto;
+	border: solid;
+	border-color: white;
+	background-color: black;
+	padding: 20px;
+	font-size: 50px;
+	font-family: Normal;		
+}
+
+.box2 {
+	position: sticky;
+	z-index: 4;
+	margin-top: auto;
+	border: solid;
+	border-color: white;
+	background-color: black;
+	padding: 20px;
+	font-size: 50px;
+	font-family: Normal;	
+
+}
+
+.box3 {
+	position: sticky;
+	z-index: 4;
+	margin-top: auto;
+	border: solid;
+	border-color: white;
+	background-color: black;
+	padding: 20px;
+	font-size: 50px;
+	font-family: Normal;	
+}
+
+.box4 {
+	position: sticky;
+	z-index: 4;
+	margin-top: auto;
+	border: solid;
+	border-color: white;
+	background-color: black;
+	padding: 20px;
+	font-size: 50px;
+	font-family: Scary;	
+}
+
+/*CREEPY LINKS*/
+
+.Creepy:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Creepy:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Creepy:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Creepy:active {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*NORMAL LINKS*/
+
+.normal:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.normal:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.normal:hover {
+  color: #1d1d1d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.normal:active {
+  color: #1d1d1d;
+  background-color: transparent;
+  text-decoration: none;
+}

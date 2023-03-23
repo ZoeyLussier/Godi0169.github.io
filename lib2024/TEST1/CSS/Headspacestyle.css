@@ -1,0 +1,88 @@
+body {
+	background-color: #5600d3;
+}
+
+
+@font-face {
+	font-family: Normal;
+	src: url("Fonts/OMORI_GAME2.ttf");
+}
+
+.audio {
+	position: fixed;
+	margin-top: 675px;
+	z-index: 4;
+}
+
+.container {
+	display: flex;
+	justify-content: right;
+}
+
+.ESC {
+	height: 75px;
+	width: auto;
+	top: 0;
+	right: 0;
+}
+
+.Forest {
+	position: absolute;
+	padding-left: 75px;
+	padding-bottom: 100px;
+	height: 750px;
+	width: auto;
+	justify-content: center;
+	z-index: 1;
+}
+
+.MARI {
+	height: 150px;
+	width: auto;
+	position: Sticky;
+	padding-top: 435px;
+	padding-left: 1235px;
+	z-index: 4;
+}
+
+.Nametag {
+
+	background-color: black;
+	border-color: white;
+	border: solid;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 100px;
+	z-index: 3;
+	color: white;
+	font-family: Normal;
+	font-size: 50px;
+	margin-right: 1395px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.text {
+	position: absolute;
+	margin-top: 0px;
+	padding-left: 10px;
+	z-index: 3;
+	color: white;
+	font-family: Normal;
+	font-size: 35px;
+	padding-right: 10px;
+}
+
+.para {
+	display: flex;
+	position: absolute;
+	z-index: 2;
+	background-color: black;
+	border: solid;
+	border-color: white;
+	height: 120px;
+	width: 1285px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 15px;
+}

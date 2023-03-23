@@ -1,0 +1,82 @@
+body {
+	background-image: url("Redspace Images/Redspace.png") ;
+}
+
+@font-face {
+	font-family: Scary;
+	src: url("Fonts/OMORI_GAME.ttf");
+}
+
+@font-face {
+	font-family: Normal;
+	src: url("Fonts/OMORI_GAME2.ttf");
+}
+
+.audio {
+	position: fixed;
+	margin-top: 675px;
+}
+
+.container {
+	display: flex;
+	justify-content: right;
+}
+
+@keyframes fade {
+	from { opacity: 0; }
+	5% { opacity: .1; }
+	10% { opacity: .2; }
+	15% { opacity: .3; }
+	20% { opacity: .4; }
+	25% { opacity: .5; }
+	30% { opacity: .6; }
+	35% { opacity: .7; }
+	40% { opacity: .8; }
+	45% { opacity: .9; }
+	50% { opacity: 1; }
+	55% { opacity: .9; }
+	60% { opacity: .8; }
+	65% { opacity: .7; }
+	70% { opacity: .6; }
+	75% { opacity: .5; }
+	80% { opacity: .4; }
+	85% { opacity: .3; }
+	90% { opacity: .2; }
+	95% { opacity: .1; }
+	to { opacity: 0; }
+}
+
+
+.Enemy {
+	height: 1000px;
+	width: auto;
+	display: block;
+	margin: auto;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+}
+
+.ESC {
+	height: 100px;
+	width: auto;
+	top: 0;
+	right: 0;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+}
+
+.subcontainer2 {
+	background-color: black;
+	color: whitesmoke;
+	border: solid;
+	border-color: whitesmoke;
+	padding: 0px 50px 0px 50px;
+	font-size: 100px;
+	font-family: Scary;
+}

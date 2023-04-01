@@ -1,0 +1,17 @@
+.face {
+	background-color: greenyellow;
+	font-size: 50px;
+	border: dashed;
+}
+
+.eyes {
+	color: blueviolet;
+}
+
+.nose {
+	color: deeppink;
+}
+
+p{
+	border: solid;
+}

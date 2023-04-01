@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+		<title>Temperature Conversion</title>
+		<link rel="icon" type="image/x-icon" href="Images/Thermometer_icon.png">
+  		<link rel="Stylesheet" href="CSS/style.css">
+  		<script src="JS/java.js"></script>
+	</head>
+
+	<body>
+		<div class="page">
+			<h1 class="heading">Convert your temperature!</h1>
+
+			<form class="convert" id="tempCalc" onsubmit="calculateTemp();return false">
+   				<label class="label" for="temp">Enter the temperature you'd like to convert!</label> <br>
+
+   				<img class="thermometer" src="Images/Thermometer_picture.png">
+
+   				<div class="javastuff">
+   					<input class="temp" name="temp" id="temp" type="number"> 
+   					<select class="temp" name="temp_diff" id="temp_diff">
+      					<option value="1">°Celsius</option>
+      					<option value="2">°Fahrenheit</option>
+   					</select> <br>
+   					<span class="result" id="results"></span> <br>
+   					<input class="submit" name="temp" type="submit">
+				</div>
+
+			</form>
+		</div>
+
+	</body>
+
+</html>

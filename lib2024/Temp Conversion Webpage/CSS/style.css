@@ -1,0 +1,62 @@
+@font-face {
+   font-family: Patrick;
+   src: url("Fonts/PatrickHand-Regular.ttf");
+}
+
+html{
+   background: linear-gradient(to bottom, #336699 0%, #00ff99 100%);
+   background-repeat: no-repeat;
+   background-size: 5000px 1500px;
+}
+
+.page {
+   font-family: Patrick, arial, sans-serif;
+   margin-left: 500px;
+   font-size: 40px;
+   color: white;
+}
+
+.heading {
+   padding-bottom: 55px;
+   padding-top: 25px;
+   font-size: 65px;
+}
+
+.thermometer {
+   position: absolute;
+   z-index: 2;
+   margin-top: 30px;
+   margin-left: 125px;
+}
+
+.javastuff {
+   margin-left: 185px;
+}
+
+.temp {
+   height: 50px;
+   width: 150px;
+   font-size: 25px;
+   font-family: Patrick, arial, sans-serif;
+   color: #336699;
+   border-style: solid;
+   border-color: #00ff99;
+   margin-top: 25px;
+}
+
+.submit {
+   height: 45px;
+   width: 100px;
+   font-size: 25px;
+   border: solid;
+   border-color: #00ff99;
+   background-color: white;
+   color: #336699;
+   margin-left: 100px;
+   margin-top: 25px;
+}
+
+.result {
+   font-size: 25px;
+   margin-left: 100px;
+}

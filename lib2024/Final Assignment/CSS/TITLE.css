@@ -52,23 +52,23 @@ body {
 .box:link {
 	color: white;
 	text-decoration: none;
-	font-family: NORMAL;
+	font-family: "NORMAL", Arial, sans-serif;
 }
 
 .box:visited {
 	color: grey;
 	text-decoration: none;
-	font-family: NORMAL;
+	font-family: "NORMAL", Arial, sans-serif;
 }
 
 .box:hover {
 	color: darkred;
 	text-decoration: none;
-	font-family: SCARY;
+	font-family: "SCARY", Arial, sans-serif;
 }
 
 .box:active {
 	color: darkred;
 	text-decoration: none;
-	font-family: SCARY;
+	font-family: "SCARY", arial, sans-serif;
 }

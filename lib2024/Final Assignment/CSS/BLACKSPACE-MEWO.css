@@ -61,7 +61,7 @@ body {
 	font-size: 35px;
 	margin-top: 545px;
 	margin-left: 540px;
-	font-family: SCARY;
+	font-family: "SCARY", Arial, sans-serif;
 }
 
 .MEWO {
@@ -75,7 +75,7 @@ body {
 	padding-right: 10px;
 	font-size: 35px;
 	margin-left: 540px;
-	font-family: SCARY;
+	font-family: "SCARY", Arial, sans-serif;
 }
 
 /*OMORI*/

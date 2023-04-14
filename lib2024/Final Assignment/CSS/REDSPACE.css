@@ -65,7 +65,7 @@ body {
 	border-style: solid;
 	background-color: black;
 	border-color: white;
-	font-family: NORMAL;
+	font-family: "NORMAL", Arial, sans-serif;
 	font-size: 40px;
 	color: white;
 	padding-left: 10px;
@@ -81,7 +81,7 @@ body {
 	border-style: solid;
 	background-color: black;
 	border-color: white;
-	font-family: SCARY;
+	font-family: "SCARY", Arial, sans-serif;
 	font-size: 40px;
 	color: white;
 	padding-left: 10px;

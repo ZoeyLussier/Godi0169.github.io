@@ -1,4 +1,4 @@
-//init object globally
+//Function to move using keyboard
             var objImage = null;
             function init() {
                 objImage = document.getElementById("omori1");

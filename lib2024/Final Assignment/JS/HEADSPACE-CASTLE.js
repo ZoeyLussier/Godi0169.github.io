@@ -1,4 +1,3 @@
-
 function TEXT1() {
   document.getElementById("text1").style.visibility = "hidden";
 }
